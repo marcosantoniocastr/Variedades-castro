@@ -1,0 +1,6 @@
+{
+  "name": "Variedades Castro | Boutique de Moda de Alta Gama",
+  "description": "Variedades Castro - Tienda de moda femenina de alta gama, ropa exclusiva, vestidos elegantes, blusas y accesorios de lujo con envíos rápidos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

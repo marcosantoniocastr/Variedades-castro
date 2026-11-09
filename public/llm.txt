@@ -1,0 +1,27 @@
+# Variedades Castro | Boutique de Alta Moda Femenina
+
+> Variedades Castro es una tienda boutique de moda femenina de alta gama, especializada en sastrería atelier, vestidos de gala y fiesta, blusas de seda, conjuntos de lino y accesorios de piel artesanales.
+
+## Información de la Marca
+- **Nombre Comercial:** Variedades Castro
+- **Categoría:** Tienda de Moda de Alta Gama / E-Commerce Femenino
+- **Horario de Atención:** Lunes a Sábado de 8:30 AM a 5:30 PM.
+- **Monedas Aceptadas:** Córdobas nicaragüenses (C$ / NIO) y Dólares estadounidenses ($ / USD) exclusivamente.
+- **Logotipo:** Bolsa de compras con corazón y tipografía atelier en formato WebP optimizado (/assets/aistudio/logo.webp).
+- **Atención al Cliente VIP:** Asesoría personalizada por WhatsApp durante el horario comercial.
+
+## Políticas de Envío
+- **Envíos Locales:** Totalmente GRATIS en la ciudad.
+- **Envíos Nacionales:** Disponibles a todos los departamentos con recargo preferencial adicional.
+
+## Herramientas de Catálogo & Gestión
+- **Lector de Códigos de Barras / SKU:** Permite buscar, consultar o eliminar prendas escaneando con la cámara del dispositivo o con lectores físicos láser USB/Bluetooth.
+- **Gestor de Inventario:** Permite a la tienda agregar prendas nuevas con código de barras generado o escaneado, así como eliminar prendas existentes.
+- **Precios Transparentes:** Precios sin falsos descuentos ni ofertas confusas.
+
+## Colecciones Principales
+- **Vestidos & Gala:** Vestidos lenceros en satén de seda, vestidos midi plisados, vestidos de gala.
+- **Blazers & Sastrería:** Blazers cruzados sastre en tejido crepé italiano y conjuntos coordinados.
+- **Blusas & Tops:** Blusas de crepé de chine y seda con acabados de alta costura.
+- **Pantalones & Faldas:** Pantalones palazzo de tiro alto con pinzas en lino.
+- **Accesorios:** Bolsos atelier en piel graneada con herrajes dorados.

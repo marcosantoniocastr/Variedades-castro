@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* ==============================================================
+   VARIEDADES CASTRO - PALETA DE COLORES GLOBAL DEL TEMA
+   Para cambiar el tema de toda la tienda, solo modifica estos valores:
+   ============================================================== */
+:root {
+  /* COLOR PRIMARIO: Rosa empolvado elegante / Dusty Blush */
+  --primary: #c27b88;
+  --primary-hover: #aa626f;
+  --primary-light: #faf0f2;
+  --primary-foreground: #ffffff;
+
+  /* COLOR SECUNDARIO: Carbón suave / Espresso de alta costura */
+  --secondary: #242021;
+  --secondary-hover: #3c3435;
+  --secondary-foreground: #ffffff;
+
+  /* COLOR ACENTO: Dorado champaña suave / Warm Champagne Gold */
+  --accent: #c89d66;
+  --accent-light: #fbf7f0;
+  --accent-hover: #b58953;
+  --accent-foreground: #242021;
+
+  /* FONDOS Y SUPERFICIES: Marfil cálido boutique y Blanco marfil */
+  --background: #faf8f5;
+  --foreground: #1c1917;
+  --card: #ffffff;
+  --card-foreground: #1c1917;
+  --surface-subtle: #f5efe8;
+
+  /* COLORES NEUTROS Y BORDES */
+  --muted: #f2ebe4;
+  --muted-foreground: #6b6360;
+  --border: #e8ded6;
+  --ring: #c27b88;
+
+  /* ESTADOS: Rebajas y Descuentos */
+  --sale: #c2414c;
+  --sale-foreground: #ffffff;
+  --success: #2e7d5a;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-light: var(--primary-light);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-surface-subtle: var(--surface-subtle);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  --color-sale: var(--sale);
+  --color-sale-foreground: var(--sale-foreground);
+  --color-success: var(--success);
+
+  --font-sans: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: var(--font-serif), "Playfair Display", Georgia, serif;
+}
+
+/* Reglas globales para accesibilidad y fluidez */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+/* Estilización de selección de texto */
+::selection {
+  background-color: var(--primary-light);
+  color: var(--secondary);
+}
+
+/* Barra de desplazamiento suave y refinada */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d4c5bb;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Utilidades para ocultar scrollbar en carruseles táctiles de móviles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
